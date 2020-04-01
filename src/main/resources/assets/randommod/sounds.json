@@ -1,1 +1,11 @@
-{}
+{
+  "coracaotoy": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "randommod:toy-coracao-nao-tem-idade-vou-beijar-lyric-video",
+        "stream": false
+      }
+    ]
+  }
+}

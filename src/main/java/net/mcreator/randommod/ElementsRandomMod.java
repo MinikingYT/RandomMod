@@ -54,6 +54,8 @@ public class ElementsRandomMod implements IFuelHandler, IWorldGenerator {
 	public final List<Supplier<Potion>> potions = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ElementsRandomMod() {
+		sounds.put(new ResourceLocation("randommod", "coracaotoy"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("randommod", "coracaotoy")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

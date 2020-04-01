@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "discotoy",
+    "name": "Mano Toy",
+    "description": "toda a noite",
+    "creativeTab": {
+      "value": "CUSTOM:RandomMisc"
+    },
+    "music": {
+      "value": "CUSTOM:coracaotoy"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,10 +1,37 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ManoToy",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RandomMisc",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "coracaotoy",
+      "file": "toy-coracao-nao-tem-idade-vou-beijar-lyric-video",
+      "category": "master"
+    }
+  ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.record.manotoy.desc": "toda a noite",
+      "item.manotoy.name": "Mano Toy",
+      "itemGroup.tabrandommisc": "Random Misc"
+    }
   },
   "workspaceSettings": {
     "modid": "randommod",

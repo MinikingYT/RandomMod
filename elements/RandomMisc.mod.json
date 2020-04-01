@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "Random Misc",
+    "icon": {
+      "value": "CUSTOM:ManoToy"
+    },
+    "showSearch": false
+  }
+}
