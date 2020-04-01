@@ -1,5 +1,7 @@
 {
-  "id_map": {},
+  "id_map": {
+    "GUI": 1
+  },
   "mod_elements": [
     {
       "name": "ManoToy",
@@ -24,6 +26,124 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Disks",
+      "type": "loottable",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RandomTable",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RandomTableCraftings",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RandomTableGUI",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "RandomTableOpenGUI",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RandomTablePlaced",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -41,6 +161,7 @@
   ],
   "language_map": {
     "en_us": {
+      "tile.randomtable.name": "Random Table",
       "item.record.manotoy.desc": "Toy - Coracao Nao tem Idade",
       "item.lilevaristoferrarri.name": "Music Disc",
       "item.record.lilevaristoferrarri.desc": "Lil Evaristo - Ferrarri",

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "randommod:blocks/baixomesa",
+    "up": "randommod:blocks/mesa",
+    "north": "randommod:blocks/ladomesa",
+    "east": "randommod:blocks/ladomesa",
+    "south": "randommod:blocks/ladomesa",
+    "west": "randommod:blocks/ladomesa",
+    "particle": "randommod:blocks/baixomesa"
+  }
+}
