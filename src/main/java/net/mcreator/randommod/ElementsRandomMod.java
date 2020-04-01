@@ -56,6 +56,8 @@ public class ElementsRandomMod implements IFuelHandler, IWorldGenerator {
 	public ElementsRandomMod() {
 		sounds.put(new ResourceLocation("randommod", "coracaotoy"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("randommod", "coracaotoy")));
+		sounds.put(new ResourceLocation("randommod", "lilevatistoferrarri"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("randommod", "lilevatistoferrarri")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

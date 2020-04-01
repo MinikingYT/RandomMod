@@ -2,14 +2,14 @@
   "_fv": 6,
   "_type": "musicdisc",
   "definition": {
-    "texture": "discotoy",
+    "texture": "lilevaristoferrarri",
     "name": "Music Disc",
-    "description": "Toy - Coracao Nao tem Idade",
+    "description": "Lil Evaristo - Ferrarri",
     "creativeTab": {
       "value": "CUSTOM:RandomMisc"
     },
     "music": {
-      "value": "CUSTOM:coracaotoy"
+      "value": "CUSTOM:lilevatistoferrarri"
     },
     "specialInfo": [],
     "hasGlow": false

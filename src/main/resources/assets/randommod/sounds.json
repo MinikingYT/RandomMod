@@ -1,10 +1,19 @@
 {
   "coracaotoy": {
-    "category": "master",
+    "category": "music",
     "sounds": [
       {
         "name": "randommod:toy-coracao-nao-tem-idade-vou-beijar-lyric-video",
-        "stream": false
+        "stream": true
+      }
+    ]
+  },
+  "lilevatistoferrarri": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "randommod:lilvaristo-errarri",
+        "stream": true
       }
     ]
   }

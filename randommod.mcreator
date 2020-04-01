@@ -16,6 +16,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "LilEvaristoFerrarri",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -23,13 +31,20 @@
     {
       "name": "coracaotoy",
       "file": "toy-coracao-nao-tem-idade-vou-beijar-lyric-video",
-      "category": "master"
+      "category": "music"
+    },
+    {
+      "name": "lilevatistoferrarri",
+      "file": "lilvaristo-errarri",
+      "category": "music"
     }
   ],
   "language_map": {
     "en_us": {
-      "item.record.manotoy.desc": "toda a noite",
-      "item.manotoy.name": "Mano Toy",
+      "item.record.manotoy.desc": "Toy - Coracao Nao tem Idade",
+      "item.lilevaristoferrarri.name": "Music Disc",
+      "item.record.lilevaristoferrarri.desc": "Lil Evaristo - Ferrarri",
+      "item.manotoy.name": "Music Disc",
       "itemGroup.tabrandommisc": "Random Misc"
     }
   },
